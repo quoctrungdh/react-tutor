@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Timer from './Timer.js';
+import ToDoApp from './ToDoApp.js';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <Timer />
+        <ToDoApp />
       </div>
     );
   }
