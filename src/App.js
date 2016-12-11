@@ -7,6 +7,9 @@ import MarkdownEditor from './MarkdownEditor.js';
 import Toggle from './Toggle.js';
 import LoginControl from './LoginControl.js';
 import Page from './WarningBanner.js';
+import NumberList from './ReactListsAndKeys.js';
+
+const numbers = [1, 2, 3, 4, 5];
 
 class App extends Component {
   render() {
@@ -19,6 +22,9 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
+        <hr />
+        <p>Array to component with key</p>
+        <NumberList numbers={numbers}/>
         <hr />
         <Page />
         <LoginControl />
