@@ -22,7 +22,6 @@ class Timer extends React.Component {
   render() {
     return(
       <div>
-        <hr />
         <h3>A stateful component</h3>
         Seconds elapsed: {this.state.secondsElapsed}
         <hr />
